@@ -2,9 +2,7 @@
 ### Course: The R Programming Language
 ### Assigment of Week # 3
 
-
 ### Introduction
-
 Submission for second programming assignment of "The R Programming Language" Course 
 in 10-course Data Science Specialization
 
@@ -34,7 +32,7 @@ in 10-course Data Science Specialization
 # cacheSolve - Solves inverse of a matrix and caches its value
 <!-- -->
 
-cacheSolve <- function(x, ...) {
+	cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 		minv <- x$getinv()
 		if(!is.null(minv)) {
