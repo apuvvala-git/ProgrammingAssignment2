@@ -9,7 +9,6 @@ Submission for second programming assignment of "The R Programming Language" Cou
 in 10-course Data Science Specialization
 
 ###  Function: makeCacheMatrix
-
 # makeCacheMatrix - Makes a special matrix, a list of functions that
 # (a) sets the original matrix
 # (b) gets the original matrix
@@ -32,8 +31,8 @@ in 10-course Data Science Specialization
 
 }
 
-
 # cacheSolve - Solves inverse of a matrix and caches its value
+<!-- -->
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
